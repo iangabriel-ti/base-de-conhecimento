@@ -1,10 +1,10 @@
-# Como instalar um SSD e migrar do HD
+# 11 — Instalar um SSD e migrar do HD
 
-**Quando usar:** computador demorando muito para ligar e abrir programas, disco sempre em 100% no Gerenciador de Tarefas, ou HD com sinais de defeito.
+**Categoria:** Hardware · **Tipo:** Procedimento · **Tempo estimado:** 30 minutos a 2 horas
+
+**Quando usar:** computador demorando muito para ligar e abrir programas, disco sempre em 100% no Gerenciador de Tarefas (ver o [artigo 05](05-computador-lento.md)), ou HD com sinais de defeito.
 
 **Ganho esperado:** é o upgrade que mais melhora a velocidade de um computador antigo. O Windows passa a iniciar em segundos.
-
-**Tempo estimado:** 30 minutos a 2 horas
 
 ---
 
@@ -38,7 +38,7 @@
 
 ## 4A. Instalação limpa
 
-1. Siga o tutorial [Como formatar e instalar o Windows 11](../windows/formatar-e-instalar-windows.md), escolhendo o **SSD** como destino
+1. Siga o tutorial [artigo 09](09-formatar-e-instalar-windows.md), escolhendo o **SSD** como destino
 2. Se o HD antigo continuar no computador, use-o depois como disco de **arquivos** (formate-o só depois de copiar o backup)
 
 ## 4B. Clonagem
@@ -66,6 +66,9 @@
 | Após clonar, o PC não inicia | Ajustar a ordem de boot na BIOS; conferir se o modo (UEFI/Legacy) é o mesmo de antes |
 | O SSD aparece com espaço menor | A clonagem copiou o tamanho das partições do HD. Estender o volume no `diskmgmt.msc` |
 
----
+## Quando escalar
+- HD com defeito e dados que não copiam: acionar o N2 para recuperação **antes** de qualquer outra ação.
+- Equipamento em garantia: acionar o fornecedor.
 
-📚 [Voltar para o índice](../README.md)
+## Registro no chamado
+Disco antigo e novo (modelo e capacidade), método usado (instalação limpa ou clonagem), saúde do SSD e tempo de inicialização antes e depois. Modelo: [registro de chamado](modelos/registro-de-chamado.md).

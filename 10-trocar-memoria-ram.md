@@ -1,8 +1,8 @@
-# Como trocar ou adicionar memória RAM
+# 10 — Trocar ou adicionar memória RAM
 
-**Quando usar:** computador lento com muitas abas ou programas abertos, uso de memória sempre acima de 80% no Gerenciador de Tarefas, ou pente de memória com defeito.
+**Categoria:** Hardware · **Tipo:** Procedimento · **Tempo estimado:** 15 a 30 minutos
 
-**Tempo estimado:** 15 a 30 minutos
+**Quando usar:** computador lento com muitas abas ou programas abertos, uso de memória sempre acima de 80% no Gerenciador de Tarefas (ver o [artigo 05](05-computador-lento.md)), ou pente de memória com defeito.
 
 ---
 
@@ -63,6 +63,10 @@ Antes de comprar, é preciso saber:
 | Tela azul depois do upgrade | Pentes de velocidades diferentes ou defeito. Rodar o `mdsched.exe` e testar cada pente separadamente |
 | Primeira inicialização demora | Normal em alguns PCs: a placa-mãe está "treinando" a nova memória. Aguarde |
 
----
+## Quando escalar
+- Equipamento em garantia: abrir pode cancelar a garantia. Acionar o fornecedor.
+- Memória soldada na placa (sem upgrade possível): pedido de troca do equipamento.
+- Erros no `mdsched.exe` mesmo com pentes novos: suspeita de defeito na placa-mãe.
 
-📚 [Voltar para o índice](../README.md)
+## Registro no chamado
+Memória antes e depois (quantidade, tipo e velocidade), slots usados, resultado do teste de memória. Modelo: [registro de chamado](modelos/registro-de-chamado.md).

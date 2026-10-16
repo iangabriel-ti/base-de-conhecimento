@@ -1,8 +1,8 @@
-# Como formatar e instalar o Windows 11
+# 09 — Formatar e instalar o Windows 11
 
-**Quando usar:** computador muito lento, infectado por vírus, com erros frequentes do sistema ou ao trocar o disco por um novo.
+**Categoria:** Windows · **Tipo:** Procedimento · **Tempo estimado:** 1 a 2 horas (sem contar o backup)
 
-**Tempo estimado:** 1 a 2 horas (sem contar o backup)
+**Quando usar:** computador muito lento, infectado por vírus, com erros frequentes do sistema ou ao trocar o disco por um novo. Antes de formatar, siga o diagnóstico do [artigo 05](05-computador-lento.md): muitas vezes não é necessário.
 
 ---
 
@@ -84,6 +84,9 @@
 | Nenhum disco aparece na instalação | Falta o driver do controlador (comum em notebooks Intel com RST/VMD). Baixar o driver do site do fabricante e carregar pelo botão **Carregar driver** |
 | Sem internet após instalar | Instalar o driver de rede pelo site do fabricante, usando outro computador |
 
----
+## Quando escalar
+- Equipamento corporativo: seguir a imagem padrão da empresa (instalação por rede ou ferramenta de implantação), que normalmente é feita pelo N2.
+- Dados do usuário que não puderam ser copiados (disco com defeito): acionar o N2 para tentativa de recuperação **antes** de formatar.
 
-📚 [Voltar para o índice](../README.md)
+## Registro no chamado
+Motivo da formatação, confirmação do backup, edição do Windows instalada, drivers e programas instalados, testes feitos. Modelo: [registro de chamado](modelos/registro-de-chamado.md).
